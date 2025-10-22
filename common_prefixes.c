@@ -13,7 +13,6 @@ int main(void) {
         for (int i = 0; i < L; ++i) s[i] = 'a';
         s[L] = '\0';
 
-        // print s1
         puts(s);
         for (int i = 0; i < n; ++i) {
             
