@@ -3,7 +3,6 @@
 #include <string.h>
 
 int main(void) {
-	// Constraints say length in [1,10], allocate +1 for null terminator
 	char A[11], B[11];
 
 	if (scanf("%10s", A) != 1) return 0;
